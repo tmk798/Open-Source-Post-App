@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col min-h-screen font-bold">
+
+  <div class="bg-zinc-900 w-full flex-grow bg-[url('https://cdn.dribbble.com/userupload/23140310/file/original-7667d40dd69febebcdc8964bc62c11fe.gif')] bg-cover bg-no-repeat bg-center p-10 text-white">
+    <h3 class="text-3xl mb-5">Create Account</h3>
+
+    <form action="/register" method="post" class="space-y-3 max-w-md">
+      <input class="block w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md" type="text" placeholder="Name" name="name" />
+      <input class="block w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md" type="text" placeholder="Username" name="username" />
+      <input class="block w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md" type="password" placeholder="Password" name="password" />
+      <input class="block w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md" type="number" placeholder="Age" name="age" />
+      <input class="block w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md" type="text" placeholder="Email" name="email" />
+      <input class="block px-5 py-2 bg-blue-500 rounded-md cursor-pointer" type="submit" value="Create Account" />
+    </form>
+  </div>
+
+  <footer class="bg-gray-900 text-white py-4 text-center">
+    <p class="text-sm">&copy; 2025 Made by <strong>The TMK Show</strong>. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
